@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const qrCodeUrl = `https://api.qrserver.com/v1/create-qr-code/?data=${encodeURIComponent(ticketUrl)}&size=200x200`;
 
     // Fetch event details from the server or use a local source
-    fetch(`/config/events.json`)
+    fetch(`../config/events.json`)
         .then(response => response.json())
         .then(events => {
             const event = events[eventId];
