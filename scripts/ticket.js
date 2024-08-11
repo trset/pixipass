@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Generate QR Code URL
-    let ticketUrl = `/views/ticket.html/${eventId}-${pixipassId}`;
+    let ticketUrl = `/views/ticket.html?pixipass=${eventId}-${pixipassId}`;
     if(window.location.pathname !== "/" ) {
         ticketUrl = "/pixipass" + ticketUrl
     }
