@@ -1,0 +1,115 @@
+/* Custom Scrollbar Styling */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: #fd6799; /* Track background */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #860530; /* Light blue for scrollbar thumb */
+    box-shadow: 0 0 5px rgba(5, 193, 255, 0.5); /* Glow effect */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    cursor: pointer;
+    background: #50001b; /* Light blue when hovered */
+    box-shadow: 0 0 10px rgba(0, 191, 255, 0.7); /* Enhanced glow effect */
+}
+
+body {
+    font-family: 'Fira Code', monospace; /* Fira Code font */
+    background-color: #e91e63; /* Dark pink background */
+    color: #E0E0E0; /* Light text color */
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white */
+    color: #e91e63; /* Dark pink text */
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Light shadow */
+    backdrop-filter: blur(10px); /* Frosted glass effect */
+}
+
+h1 {
+    margin: 0;
+    font-size: 36px; /* Large and bold */
+    font-weight: bold;
+}
+
+p {
+    margin: 5px 0 20px;
+    font-size: 16px;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    align-items: flex-start;
+}
+
+.event-card {
+    background-color: #FFF; /* White background */
+    color: #161010; /* Dark text color */
+    border: 1px solid #e91e63; /* Dark pink border */
+    border-radius: 10px;
+    width: 220px; /* Adjusted width */
+    margin: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Light shadow */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    transition: transform 0.2s, box-shadow 0.2s; /* Smooth effects */
+}
+
+.event-card:hover {
+    transform: translateY(-5px); /* Slightly lift on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); /* Enhanced shadow */
+}
+
+.event-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    border-bottom: 1px solid #e91e63; /* Dark pink separation line */
+}
+
+.event-card h2 {
+    font-size: 20px; /* Larger font size */
+    margin: 10px 0;
+}
+
+.event-card p {
+    margin: 5px 0;
+    font-size: 14px; /* Slightly larger font size */
+    color: #000; /* Light text color */
+}
+
+.event-card button {
+    background-color: #e91e63; /* Dark pink background */
+    color: #FFFFFF; /* White text */
+    padding: 12px; /* Adjusted padding */
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 800;
+    transition: background-color 0.3s, transform 0.2s; /* Smooth effects */
+    border-radius: 5px; /* Rounded corners */
+    margin-top: auto; /* Push button to the bottom */
+    text-align: center; /* Center text */
+}
+
+.event-card button:hover {
+    background-color: #d81b60; /* Slightly darker pink on hover */
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+}

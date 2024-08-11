@@ -1,0 +1,34 @@
+{
+    "xkjdu": {
+        "id": "xkjdu",
+        "title": "Gaurav Gupta Live",
+        "Venue": "The Laugh Store, DLF, Gurugram",
+        "date": "2024-08-11T08:30:00.0Z",
+        "price": 999,
+        "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-VHVlLCAxMyBBdWc%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00321882-cpqtadpcjn-portrait.jpg"
+    },
+    "qlosd": {
+        "id": "qlosd",
+        "title": "Sunburn Arena Ft. Alan Walker",
+        "Venue": "Delhi NCR",
+        "date": "2024-09-29T11:30:00.0Z",
+        "price": 1250,
+        "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U3VuLCAyOSBTZXA%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00394923-wplrjljvbx-portrait.jpg"
+    },
+    "osvsk": {
+        "id": "osvsk",
+        "title": "Pottery Workshop",
+        "Venue": "The Potter's Life, Delhi",
+        "date": "2024-08-17T5:30:00.0Z",
+        "price": 1380,
+        "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U2F0LCAxNyBBdWcgb253YXJkcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00401259-mmeneylaxf-portrait.jpg"
+    },
+    "asklc": {
+        "id": "asklc",
+        "title": "Open Mic - Comedy & Poetry",
+        "Venue": "Buddy on Stage, Delhi",
+        "date": "2024-08-16T13:30:00.0Z",
+        "price": 49,
+        "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-RnJpLCAxNiBBdWcgb253YXJkcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00345449-jlcedmbpag-portrait.jpg"
+    }
+}

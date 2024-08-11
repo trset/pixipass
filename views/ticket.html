@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket</title>
+    <link rel="stylesheet" href="../styles/ticket.css">
+</head>
+<body>
+    <div class="ticket-container">
+        <div class="ticket">
+            <div class="ticket-details">
+                <h1>Event Ticket</h1>
+                <p><strong>Title:</strong> <span id="event-title"></span></p>
+                <p><strong>Venue:</strong> <span id="event-venue"></span></p>
+                <p><strong>Date:</strong> <span id="event-date"></span></p>
+                <p><strong>Price:</strong> ₹<span id="event-price"></span></p>
+                <p><strong>ID:</strong> <span id="ticket-id"></span></p>
+                <p class="help-text">Show the QR code at the venue for entry</p>
+            </div>
+            <div class="ticket-qr">
+                <div id="qr-code"></div>
+            </div>
+        </div>
+    </div>
+    <script src="../scripts/ticket.js"></script>
+</body>
+</html>
