@@ -43,7 +43,10 @@ function renderEvents(events) {
 // Function to handle buying ticket
 function buyTicket(eventID) {
     const pixipassID = generatePixipassID();
-    const url = `../views/ticket.html?pixipass=${eventID}-${pixipassID}`;
+    let url = `/views/ticket.html?pixipass=${eventID}-${pixipassID}`;
+    if(window.location.pathname !== "/" ) {
+        url = "/pixipass" + url
+    }
     window.location.href = url; // Redirect to the new page with eventID and pixipassID
 }
 
