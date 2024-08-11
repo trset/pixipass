@@ -13,7 +13,11 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Generate QR Code URL
-    const ticketUrl = `${window.location.origin}/views/index.html/${eventId}-${pixipassId}`;
+    let ticketUrl = `/views/index.html/${eventId}-${pixipassId}`;
+    if(window.location.pathname !== "/" ) {
+        ticketUrl = "/pixipass" + ticketUrl
+    }
+    ticketUrl = ${window.location.origin} + ticketUrl
     const qrCodeUrl = `https://api.qrserver.com/v1/create-qr-code/?data=${encodeURIComponent(ticketUrl)}&size=200x200`;
 
     // Fetch event details from the server or use a local source
