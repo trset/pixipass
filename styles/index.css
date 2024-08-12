@@ -4,7 +4,7 @@
 }
 
 ::-webkit-scrollbar-track {
-    background: #fd6799; /* Track background */
+    background: #602d3e; /* Track background */
 }
 
 ::-webkit-scrollbar-thumb {
@@ -38,7 +38,7 @@ header {
 
 h1 {
     margin: 0;
-    font-size: 36px; /* Large and bold */
+    font-size: 66px; /* Large and bold */
     font-weight: bold;
 }
 

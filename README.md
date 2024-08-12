@@ -1,1 +1,1 @@
-Simple ToDo list app
+QR Ticket app
