@@ -1,7 +1,7 @@
 {
-  "name": "Pixipass - QR ticket",
+  "name": "Pixipass - Event Management",
   "short_name": "Pixipass",
-  "description": "QR tickets for events",
+  "description": "QR tickets for Event Management",
   "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#000000",
