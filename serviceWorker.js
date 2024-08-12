@@ -1,11 +1,15 @@
 self.addEventListener('install', event => {
   event.waitUntil(
-    caches.open('matrix-todo-cache').then(cache => {
+    caches.open('pixipass-cache').then(cache => {
       return cache.addAll([
         './',
+        './config/events.json',
         './index.html',
-        './style.css',
-        './script.js',
+        './views/ticket.html',
+        './styles/index.css',
+        './styles/ticket.css',
+        './scripts/index.js',
+        './scripts/ticket.js',
         './manifest.json',
         './icons/android-chrome-192x192.png',
         './icons/android-chrome-512x512.png',
